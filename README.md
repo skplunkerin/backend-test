@@ -4,7 +4,13 @@ Create a rails app the uses a provided binary to generate a graphical website hi
 
 The binary is compiled for Linux, Windows, and Darwin (MacOS) in 32bit (386) and 64bit (amd64) architectures.  The binary can be downloaded here:
 
-[Image server binaries](#)
+[Image server binaries](https://github.com/skipio-corp/backend-test/releases)
+
+For Linux and MacOS users you may need to make the binaries executable.  Example:
+
+```
+chmod a+x imgsrv-linux-amd64
+```
 
 ### Example binary usage:
 
