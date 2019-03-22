@@ -21,7 +21,8 @@ curl localhost:8088 -d '{"canvas_width": 200, "canvas_height": 200, "img_command
 {"cmd": "DrawLine", "args":[20, 20, 40, 40]},
 {"cmd": "SetRGBA", "args": [1, 0, 1, 0.8]},
 {"cmd": "DrawCircle", "args": [30, 30, 30]},
-{"cmd": "Fill"}, {"cmd": "SetRGBA", "args": [0,0,1,0.6]},
+{"cmd": "Fill"},
+{"cmd": "SetRGBA", "args": [0,0,1,0.6]},
 {"cmd": "DrawCircle", "args": [30, 30, 30]},
 {"cmd": "Stroke"}
 ]}' > img.png
