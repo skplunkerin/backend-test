@@ -48,7 +48,7 @@ Sets the color using the supplied RGB and Alpha values.
 
 Sets the line width for `DrawLine` and `Stroke` commands
 
-- `DrawRectange(x1 float, y1 float, x2 float, x2 float)`
+- `DrawRectange(x1 float, y1 float, width float, height float)`
 
 Creates a rectangle path on the canvas.  This must be followed by a `Fill` or `Stroke` to fill and draw an outline of the rectangle.
 
@@ -60,7 +60,7 @@ Fills the circle or rectangle path created by `DrawCircle` or `DrawRectange`
 
 Outlines the circle or rectangle path created by `DrawCircle` or `DrawRectange`
 
-- `DrawLine(x1 float, y1 float, x2 float, x2 float)`
+- `DrawLine(x1 float, y1 float, x2 float, y2 float)`
 
 Draws a line from x1,y1 to x2,y2.  There is no need to follow this command with `Fill` or `Stroke` commands.
 
